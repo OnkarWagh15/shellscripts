@@ -1,0 +1,6 @@
+#!/bin/bash
+a=0 
+if ((a==4)) ; then echo yes ; else echo no ; fi
+if (( (a-5) == 0 )) ; then echo yes ; else echo no ; fi
+if (( a < 10  )) ; then echo yes ; else echo no ; fi
+if (( a = 5  )) ; then echo yes ; else echo no ; fi
